@@ -9,10 +9,9 @@ int main()
 printf("\n  -------------------------------------------------------");
 printf("\n  |    Atividade Supervisionada de Prog. Estruturada    |");
 printf("\n  -------------------------------------------------------");
-printf("\n  |               Alunos               |    Matricula   |");
-printf("\n  |------------------------------------|----------------|");
-printf("\n  | Everton Alexandrino de Lima        |   2015201496   |");
-printf("\n  -------------------------------------------------------");
+printf("\n  | Nome | Everton Alexandrino de Lima                  |");
+printf("\n  |-----------------------------------------------------|");
+
 
 
 printf("\n\n\n  Digite seu texto -> ");
@@ -26,7 +25,7 @@ gets(pesquisa);
 
 tamanho2=strlen(pesquisa);
 
-for (i=0;i<tamanho1;i++) //compara desde o primeiro até o ultimo caractere.
+for (i=0;i<tamanho1;i++) //compara desde o primeiro atÃ© o ultimo caractere.
 { 
 
 
